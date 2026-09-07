@@ -23,3 +23,23 @@ int main() {
  }
  return 0;
 }
+=======
+int main()
+{
+ char municipality[50];
+ char mayor[50];
+ int population;
+ printf("Municipal Financial Management System\n\n");
+ printf("Enter Municipality Name: ");
+ scanf("%49s", municipality);
+ printf("Enter Mayor: ");
+ scanf("%49s", mayor);
+ printf("Enter Population: ");
+ scanf("%d", &population);
+ printf("\n---------------------------------\n");
+ printf("Municipality : %s\n", municipality);
+ printf("Mayor : %s\n", mayor);
+ printf("Population : %d\n", population);
+ return 0;
+}
+>>>>>>> 979322862cf8f08301fd62d4465093fb7d46035f
